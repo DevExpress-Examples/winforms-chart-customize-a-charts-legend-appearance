@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Form1.cs](./CS/ChartLegend/Form1.cs) (VB: [Form1.vb](./VB/ChartLegend/Form1.vb))
+<!-- default file list end -->
 # How to customize a chart's legend appearance
 
 

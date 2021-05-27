@@ -5,9 +5,6 @@
 <!-- default file list end -->
 # How to customize a chart's legend appearance
 
+This example demonstrates how a chart's [legend](https://docs.devexpress.com/WindowsForms/5794/controls-and-libraries/chart-control/legends) can be accessed and customized at runtime.
 
-<p>This example demonstrates how a chart's <a href="http://devexpress.com/Help/Content.aspx?help=XtraCharts&document=CustomDocument5794.htm">legend</a> can be accessed and customized at runtime.</p><p>To control whether <a href="http://devexpress.com/Help/Content.aspx?help=XtraCharts&document=CustomDocument5783.htm">constant lines</a> and <a href="http://devexpress.com/Help/Content.aspx?help=XtraCharts&document=CustomDocument5784.htm">strips</a> should be shown in the legend, use their <strong>ShowInLegend</strong> property.</p>
-
-<br/>
-
-
+To control whether [constant lines](https://docs.devexpress.com/WindowsForms/5783/controls-and-libraries/chart-control/axes/constant-lines?p=netframework) and [strips](https://docs.devexpress.com/WindowsForms/5784/controls-and-libraries/chart-control/axes/strips?p=netframework) should be shown in the legend, use their **ShowInLegend** property.

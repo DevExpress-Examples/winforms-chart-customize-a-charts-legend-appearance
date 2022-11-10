@@ -5,7 +5,7 @@
 
 # Chart for WinForms - How to Customize the Appearance of the Chart Legend 
 
-This example demonstrates how to access the chart [legend](https://docs.devexpress.com/WindowsForms/5794/controls-and-libraries/chart-control/legends)'s settings to customize the legend appearance at runtime.
+This example demonstrates how to access the chart [legend](https://docs.devexpress.com/WindowsForms/5794/controls-and-libraries/chart-control/legends)'s settings to customize the legend's appearance at runtime.
 
 ![Custom Legend](image/chart.png)
 

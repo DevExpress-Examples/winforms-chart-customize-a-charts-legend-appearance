@@ -1,30 +1,25 @@
-﻿Imports System
-Imports System.Drawing
-Imports System.Windows.Forms
+﻿Imports DevExpress.Drawing
 Imports DevExpress.XtraCharts
-' ...
 
 Namespace ChartLegend
     Partial Public Class Form1
         Inherits Form
-
         Public Sub New()
             InitializeComponent()
         End Sub
-
         Private Sub Form1_Load(ByVal sender As Object, ByVal e As EventArgs) Handles MyBase.Load
             ' Create an empty chart.
             Dim chartControl1 As New ChartControl()
 
             ' Create a series and add points to it.
             Dim series1 As New Series("Series 1", ViewType.Bar)
-            series1.Points.Add(New SeriesPoint("A", New Double() { 4 }))
-            series1.Points.Add(New SeriesPoint("B", New Double() { 2 }))
-            series1.Points.Add(New SeriesPoint("C", New Double() { 17 }))
-            series1.Points.Add(New SeriesPoint("D", New Double() { 4 }))
-            series1.Points.Add(New SeriesPoint("E", New Double() { 17 }))
-            series1.Points.Add(New SeriesPoint("F", New Double() { 12 }))
-            series1.Points.Add(New SeriesPoint("G", New Double() { 15 }))
+            series1.Points.Add(New SeriesPoint("A", New Double() {4}))
+            series1.Points.Add(New SeriesPoint("B", New Double() {2}))
+            series1.Points.Add(New SeriesPoint("C", New Double() {17}))
+            series1.Points.Add(New SeriesPoint("D", New Double() {4}))
+            series1.Points.Add(New SeriesPoint("E", New Double() {17}))
+            series1.Points.Add(New SeriesPoint("F", New Double() {12}))
+            series1.Points.Add(New SeriesPoint("G", New Double() {15}))
 
             ' Add the series to the chart.
             chartControl1.Series.Add(series1)
@@ -81,13 +76,12 @@ Namespace ChartLegend
 
             ' Customize the legend text properties.
             chartControl1.Legend.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.False
-            chartControl1.Legend.Font = New Font(Me.Font.FontFamily.Name, 9, FontStyle.Bold)
+            chartControl1.Legend.DXFont = New DXFont("Tahoma", 9, DXFontStyle.Bold)
             chartControl1.Legend.TextColor = Color.DarkBlue
 
             ' Add the chart to the form.
             chartControl1.Dock = DockStyle.Fill
             Me.Controls.Add(chartControl1)
         End Sub
-
     End Class
 End Namespace

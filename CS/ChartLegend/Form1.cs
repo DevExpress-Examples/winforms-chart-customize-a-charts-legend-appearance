@@ -1,15 +1,14 @@
 using System;
 using System.Drawing;
 using System.Windows.Forms;
+using DevExpress.Drawing;
 using DevExpress.XtraCharts;
-// ...
 
 namespace ChartLegend {
     public partial class Form1 : Form {
         public Form1() {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e) {
             // Create an empty chart.
             ChartControl chartControl1 = new ChartControl();
@@ -79,13 +78,12 @@ namespace ChartLegend {
                         
             // Customize the legend text properties.
             chartControl1.Legend.EnableAntialiasing = DevExpress.Utils.DefaultBoolean.False;
-            chartControl1.Legend.Font = new Font(this.Font.FontFamily.Name, 9, FontStyle.Bold);
+            chartControl1.Legend.DXFont = new DXFont("Tahoma", 9, DXFontStyle.Bold);
             chartControl1.Legend.TextColor = Color.DarkBlue;
 
             // Add the chart to the form.
             chartControl1.Dock = DockStyle.Fill;
             this.Controls.Add(chartControl1);
         }
-
     }
 }

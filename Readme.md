@@ -9,7 +9,7 @@ This example demonstrates how to access the chart [legend](https://docs.devexpre
 
 ![Custom Legend](image/chart.png)
 
-To control whether [constant lines](https://docs.devexpress.com/WindowsForms/5783/controls-and-libraries/chart-control/axes/constant-lines?p=netframework) and [strips](https://docs.devexpress.com/WindowsForms/5784/controls-and-libraries/chart-control/axes/strips?p=netframework) should be shown in the legend, set their `ShowInLegend` property to `true`.
+To specify whether [constant lines](https://docs.devexpress.com/WindowsForms/5783/controls-and-libraries/chart-control/axes/constant-lines?p=netframework) and [strips](https://docs.devexpress.com/WindowsForms/5784/controls-and-libraries/chart-control/axes/strips?p=netframework) should be shown in the legend, set their `ShowInLegend` property to `true`.
 
 ## Files to Review
 

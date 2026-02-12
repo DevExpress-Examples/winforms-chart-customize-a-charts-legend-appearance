@@ -21,7 +21,7 @@ To specify whether [constant lines](https://docs.devexpress.com/WindowsForms/578
 
 [Legends](https://docs.devexpress.com/WindowsForms/5794/controls-and-libraries/chart-control/legends)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-chart-customize-a-charts-legend-appearance&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=winforms-chart-customize-a-charts-legend-appearance&~~~was_helpful=no)
 
